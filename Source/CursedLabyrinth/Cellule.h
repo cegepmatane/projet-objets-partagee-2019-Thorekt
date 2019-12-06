@@ -18,10 +18,18 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	UPROPERTY(VisibleAnywhere, Category = "DEBUG")
 	bool ouverte;
-	bool murs[4];
+	bool murs[2];
+	UPROPERTY(VisibleAnywhere, Category = "DEBUG")
 	ACellule* cellulesAdjacentes[4];
-	int coordX, coordY;
+	UPROPERTY(VisibleAnywhere, Category = "Coordonnées")
+	int coordX;
+	UPROPERTY(VisibleAnywhere, Category = "Coordonnées")
+	int coordY;
+	
+	UPROPERTY(EditAnywhere, Category = "Apparition")
+	class TSubclassOf<class AActor> mur;
 
 public:	
 	// Called every frame
@@ -37,4 +45,13 @@ public:
 	void setCoordonnee(int x, int y);
 	int getCoordX();
 	int getCoordY();
+	void ouvrirMur(int index);
+	void ouvrirCellule();
+	bool resteCellulesAdjacentesPasOuverte();
+	void genererMurs();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Apparition", meta = (AllowPrivateAccess = "true"))
+	class UBoxComponent* lieuApparitionMurX;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Apparition", meta = (AllowPrivateAccess = "true"))
+	class UBoxComponent* lieuApparitionMurY;
 };

@@ -2,6 +2,8 @@
 
 
 #include "Cellule.h"
+#include "Engine/World.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 ACellule::ACellule()
@@ -12,8 +14,12 @@ ACellule::ACellule()
 	this->ouverte = false;
 	this->murs[0] = true;
 	this->murs[1] = true;
-	this->murs[2] = true;
-	this->murs[3] = true;
+
+	this->RootComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
+	this->lieuApparitionMurX = CreateDefaultSubobject<UBoxComponent>(TEXT("lieuApparitionMurX"));
+	this->lieuApparitionMurY = CreateDefaultSubobject<UBoxComponent>(TEXT("lieuApparitionMurY"));
+	this->lieuApparitionMurX->AttachTo(this->RootComponent);
+	this->lieuApparitionMurY->AttachTo(this->RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -63,4 +69,97 @@ int ACellule::getCoordX(){
 }
 int ACellule::getCoordY(){
 	return this->coordY;
+}
+
+
+void ACellule::ouvrirMur(int index) {
+
+	setMur(index, false);
+
+}
+
+void ACellule::ouvrirCellule() {
+	bool cellulesAdjacentesToutesOuverte = resteCellulesAdjacentesPasOuverte();
+	setOuverte(true);
+
+	TArray<int16> indexRestant;
+
+	indexRestant.Add(0);
+	indexRestant.Add(1);
+	indexRestant.Add(2);
+	indexRestant.Add(3);
+
+	while (cellulesAdjacentesToutesOuverte && indexRestant.Num() != 0)
+	{	
+	
+		int random = rand() % (indexRestant.Num());
+
+		int indexProchaineCellule = indexRestant[random];
+
+
+		if ((indexProchaineCellule == 0 && getCoordX() != 9) ||
+			(indexProchaineCellule == 1 && getCoordY() != 9) || 
+			(indexProchaineCellule == 2 && getCoordX() != 0) ||
+			(indexProchaineCellule == 3 && getCoordY() != 0))
+		{
+			if (!this->cellulesAdjacentes[indexProchaineCellule]->estOuverte()) {
+				if (indexProchaineCellule == 0 || indexProchaineCellule == 1) {
+					this->ouvrirMur(indexProchaineCellule);
+				}
+				else if (indexProchaineCellule == 2 || indexProchaineCellule == 3) {
+					this->cellulesAdjacentes[indexProchaineCellule]->ouvrirMur(indexProchaineCellule-2);
+				}
+				this->cellulesAdjacentes[indexProchaineCellule]->ouvrirCellule();
+
+			}
+		}
+
+		indexRestant.RemoveAt(random);
+
+		cellulesAdjacentesToutesOuverte = resteCellulesAdjacentesPasOuverte();
+	}
+}
+
+bool ACellule::resteCellulesAdjacentesPasOuverte() {
+	bool reste = false;
+	if (getCoordX() != 9 ) {
+		if (!this->cellulesAdjacentes[0]->estOuverte()) {
+			reste = true;
+		}
+	}
+	if (getCoordY() != 9  ) {
+		if (!this->cellulesAdjacentes[1]->estOuverte()) {
+			reste = true;
+		}
+	}
+	if (getCoordX() != 0 ) {
+		if (!this->cellulesAdjacentes[2]->estOuverte()) {
+			reste = true;
+		}
+	}
+	if (getCoordY() != 0) {
+		if (!this->cellulesAdjacentes[3]->estOuverte()) {
+			reste = true;
+		}
+	}
+	return reste;
+}
+
+void ACellule::genererMurs() {
+	UWorld* monde = GetWorld();
+
+	if (NULL == this->mur) return;
+	if (NULL == monde) return;
+
+	FActorSpawnParameters parametresApparition;
+	parametresApparition.Owner = this;
+	parametresApparition.Instigator = Instigator;
+
+
+	if (this->murs[0] && getCoordX() != 9) {
+		monde->SpawnActor<AActor>(this->mur, this->lieuApparitionMurX->GetComponentLocation(), this->lieuApparitionMurX->GetComponentRotation());
+	}
+	if (this->murs[1] && getCoordY() != 9) {
+		monde->SpawnActor<AActor>(this->mur, this->lieuApparitionMurY->GetComponentLocation(), this->lieuApparitionMurY->GetComponentRotation());
+	}
 }

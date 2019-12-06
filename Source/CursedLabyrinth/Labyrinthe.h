@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Cellule.h"
+#include "Components/BoxComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Labyrinthe.generated.h"
@@ -23,11 +24,14 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Apparition")
 	TSubclassOf<class ACellule> objetApparition;
 
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	UFUNCTION(BlueprintCallable, Category = "Labyrinthe")
+	UFUNCTION(BlueprintCallable, Category = MultiThreading)
 	void genererLabyrinthe();
+
 };
