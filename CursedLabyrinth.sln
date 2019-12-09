@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{6610C7BE-D1CC-4194-8685-9FCEE9EEE247}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{91914661-159E-4363-AD54-3962134322B4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{3E01C7FB-83AA-47C9-8CEC-69169065BC63}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{91C01A1E-7CA9-4F4A-B7A5-7008A9A36A4A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{D1BD0BC1-18F7-4B58-A773-9568AD0C8688}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CursedLabyrinth", "Intermediate\ProjectFiles\CursedLabyrinth.vcxproj", "{E2FACBA2-738A-4653-AE3F-0A0336718E96}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{9801C118-EE85-45CC-984C-1B2862E61C15}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{B980FF2E-6A38-492D-99B2-C56BB7BDABC5}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\epic\UE_4.23\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\epic\UE_4.23\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D1BD0BC1-18F7-4B58-A773-9568AD0C8688} = {6610C7BE-D1CC-4194-8685-9FCEE9EEE247}
-		{E2FACBA2-738A-4653-AE3F-0A0336718E96} = {3E01C7FB-83AA-47C9-8CEC-69169065BC63}
+		{D1BD0BC1-18F7-4B58-A773-9568AD0C8688} = {91914661-159E-4363-AD54-3962134322B4}
+		{E2FACBA2-738A-4653-AE3F-0A0336718E96} = {91C01A1E-7CA9-4F4A-B7A5-7008A9A36A4A}
 	EndGlobalSection
 EndGlobal
