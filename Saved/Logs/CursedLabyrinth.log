@@ -1,4 +1,4 @@
-﻿Log file open, 12/09/19 09:03:19
+﻿Log file open, 12/09/19 09:49:13
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: CursedLabyrinth
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.084167
+LogStats: Stats thread started at 0.072464
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,412 +157,400 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.09-14.03.23:257][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.09-14.03.23:257][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
-[2019.12.09-14.03.23:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.09-14.03.23:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
-[2019.12.09-14.03.23:258][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
-[2019.12.09-14.03.23:315][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.09-14.03.23:315][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.09-14.03.23:316][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.09-14.03.23:320][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.09-14.03.23:324][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.09-14.03.23:345][  0]LogHAL: Display: Platform has ~ 16 GB [17058197504 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.09-14.03.23:345][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.09-14.03.23:345][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:345][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.09-14.03.23:345][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.09-14.03.23:345][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:345][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.09-14.03.23:346][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.09-14.03.23:347][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.09-14.03.23:353][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.09-14.03.23:353][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.09-14.03.23:353][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
-[2019.12.09-14.03.23:370][  0]LogInit: Computer: LAPTOP-RM4NRAU3
-[2019.12.09-14.03.23:370][  0]LogInit: User: Robin
-[2019.12.09-14.03.23:370][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.12.09-14.03.23:370][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.09-14.03.23:371][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.12.09-14.03.23:371][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.09-14.03.23:371][  0]LogMemory: Process Physical Memory: 100.86 MB used, 100.86 MB peak
-[2019.12.09-14.03.23:371][  0]LogMemory: Process Virtual Memory: 100.61 MB used, 100.61 MB peak
-[2019.12.09-14.03.23:371][  0]LogMemory: Physical Memory: 4848.54 MB used,  11419.43 MB free, 16267.96 MB total
-[2019.12.09-14.03.23:371][  0]LogMemory: Virtual Memory: 4668.64 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.12.09-14.03.23:388][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.12.09-14.03.24:451][  0]LogInit: Overriding locale with editor locale configuration option (fr-CA).
-[2019.12.09-14.03.24:451][  0]LogInit: Overriding language with editor culture configuration option ().
-[2019.12.09-14.03.24:452][  0]LogInit: Using OS detected language (fr-FR).
-[2019.12.09-14.03.24:550][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2019.12.09-14.03.24:550][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2019.12.09-14.03.24:550][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2019.12.09-14.03.24:550][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2019.12.09-14.03.24:551][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2019.12.09-14.03.24:552][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2019.12.09-14.03.24:553][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2019.12.09-14.03.24:553][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2019.12.09-14.03.24:700][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.09-14.03.25:366][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.09-14.03.25:366][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.09-14.03.29:041][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.09-14.03.29:041][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.09-14.03.29:271][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.12.09-14.03.29:271][  0]LogD3D11RHI:       4021/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.12.09-14.03.29:290][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.12.09-14.03.29:290][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.12.09-14.03.29:293][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.09-14.03.29:293][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.09-14.03.29:293][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.09-14.03.29:341][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.09-14.03.29:341][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2019.12.09-14.03.29:341][  0]LogWindows: EnumDisplayDevices:
-[2019.12.09-14.03.29:342][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.12.09-14.03.29:342][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.12.09-14.03.29:342][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.12.09-14.03.29:343][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.12.09-14.03.29:343][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.12.09-14.03.29:381][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.12.09-14.03.29:381][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.12.09-14.03.29:381][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
-[2019.12.09-14.03.29:463][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.09-14.03.29:713][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.12.09-14.03.31:111][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.12.09-14.03.31:160][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.12.09-14.03.31:195][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.12.09-14.03.31:262][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.12.09-14.03.31:319][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.12.09-14.03.31:414][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.12.09-14.03.31:437][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.09-14.03.31:522][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.12.09-14.03.31:552][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.12.09-14.03.31:750][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.12.09-14.03.31:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.12.09-14.03.31:788][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.12.09-14.03.32:011][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.12.09-14.03.32:012][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.12.09-14.03.32:052][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.12.09-14.03.32:052][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.12.09-14.03.32:078][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.12.09-14.03.32:103][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.09-14.03.32:151][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.12.09-14.03.32:254][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.12.09-14.03.32:326][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.12.09-14.03.32:326][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.12.09-14.03.32:326][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.09-14.03.32:635][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.09-14.03.33:548][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Intermediate/Shaders/WorkingDirectory/7408/).
-[2019.12.09-14.03.33:548][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robin/AppData/Local/Temp/UnrealShaderWorkingDir/2530D9C34A10D7F8CF0DD8A93366E142/'.
-[2019.12.09-14.03.33:555][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.09-14.03.33:555][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.09-14.03.33:555][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.09-14.03.37:844][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.09-14.03.38:102][  0]LogDerivedDataCache: Loaded boot cache 0.25s 73MB C:/Users/Robin/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.09-14.03.38:103][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robin/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.12.09-14.03.38:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.09-14.03.38:103][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.09-14.03.38:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.09-14.03.38:103][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.09-14.03.38:217][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.09-14.03.38:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.09-14.03.38:217][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.12.09-14.03.38:219][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.09-14.03.38:219][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.09-14.03.38:219][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.09-14.03.38:283][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.09-14.03.38:421][  0]LogSlate: Using FreeType 2.6.0
-[2019.12.09-14.03.38:626][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.09-14.03.39:433][  0]LogAssetRegistry: FAssetRegistry took 0.0061 seconds to start up
-[2019.12.09-14.03.44:064][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.09-14.03.45:933][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.09-14.03.45:933][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.09-14.03.45:933][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.09-14.03.45:933][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.09-14.03.45:949][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.09-14.03.46:335][  0]LogNetVersion: CursedLabyrinth 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1792059842)
-[2019.12.09-14.03.50:291][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Intermediate/AssetRegistryCache/7b5bc147.bin
-[2019.12.09-14.03.50:306][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Intermediate/AssetRegistryCache/3ebcc83c.bin
-[2019.12.09-14.03.50:321][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Intermediate/AssetRegistryCache/13c31760.bin
-[2019.12.09-14.03.50:428][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Intermediate/AssetRegistryCache/a5b8f73b.bin
-[2019.12.09-14.03.50:467][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Intermediate/AssetRegistryCache/e83de140.bin
-[2019.12.09-14.03.50:470][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.248467 seconds
-[2019.12.09-14.03.50:477][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.12.09-14.03.50:477][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.12.09-14.03.50:477][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.09-14.04.02:075][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.09-14.04.02:110][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.09-14.04.02:990][  0]SourceControl: Source control is disabled
-[2019.12.09-14.04.03:003][  0]SourceControl: Source control is disabled
-[2019.12.09-14.04.03:191][  0]SourceControl: Source control is disabled
-[2019.12.09-14.04.03:222][  0]SourceControl: Source control is disabled
-[2019.12.09-14.04.04:943][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.09-14.04.06:089][  0]LogOcInput: OculusInput pre-init called
-[2019.12.09-14.04.06:167][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.12.09-14.04.06:167][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.12.09-14.04.07:213][  0]LogEngine: Initializing Engine...
-[2019.12.09-14.04.07:232][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.09-14.04.07:318][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.070 s
-[2019.12.09-14.04.08:164][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.09-14.04.08:500][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.09-14.04.08:776][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.09-14.04.09:029][  0]LogInit: FAudioDevice initialized.
-[2019.12.09-14.04.09:029][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.09-14.04.09:031][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Robin/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.09-14.04.09:031][  0]LogInit: Texture streaming: Enabled
-[2019.12.09-14.04.09:303][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.09-14.04.09:303][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.12.09-14.04.09:314][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.12.09-14.04.10:323][  0]LogInit: Transaction tracking system initialized
-[2019.12.09-14.04.10:969][  0]BlueprintLog: New page: Editor Load
-[2019.12.09-14.04.12:199][  0]LocalizationService: Localization service is disabled
-[2019.12.09-14.04.12:884][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
-[2019.12.09-14.04.12:884][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
-[2019.12.09-14.04.12:884][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2019.12.09-14.04.15:462][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Content/' took 0.01s
-[2019.12.09-14.04.15:462][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.09-14.04.15:462][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.09-14.04.19:166][  0]SourceControl: Source control is disabled
-[2019.12.09-14.04.19:201][  0]Cmd: MAP LOAD FILE="../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.09-14.04.19:287][  0]LightingResults: New page: Lighting Build
-[2019.12.09-14.04.19:359][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.12.09-14.04.19:624][  0]MapCheck: New page: Map Check
-[2019.12.09-14.04.19:624][  0]LightingResults: New page: Lighting Build
-[2019.12.09-14.04.19:897][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
-[2019.12.09-14.04.22:438][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2019.12.09-14.04.22:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.09-14.04.23:080][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
-[2019.12.09-14.04.23:080][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.09-14.04.23:083][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,511ms to complete.
-[2019.12.09-14.04.23:083][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.899
-[2019.12.09-14.04.24:413][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.09-14.04.24:426][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.09-14.04.24:435][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.09-14.04.24:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.09-14.04.24:567][  0]LogCollectionManager: Loaded 0 collections in 0.002350 seconds
-[2019.12.09-14.04.24:635][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Collections/' took 0.00s
-[2019.12.09-14.04.24:635][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Content/Developers/Robin/Collections/' took 0.00s
-[2019.12.09-14.04.24:635][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Content/Collections/' took 0.00s
-[2019.12.09-14.04.24:635][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.12.09-14.04.24:658][  0]LogContentBrowser: Native class hierarchy populated in 0.0229 seconds. Added 2865 classes and 682 folders.
-[2019.12.09-14.04.24:703][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.12.09-14.04.26:048][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.12.09-14.04.26:093][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.12.09-14.04.26:707][  0]LogSlate: Took 0.025045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.09-14.04.26:746][  0]LogSlate: Took 0.016284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.09-14.04.26:946][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.12.09-14.04.26:947][  0]LogLoad: (Engine Initialization) Total time: 69.98 seconds
-[2019.12.09-14.04.26:947][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.09-14.04.27:274][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.09-14.04.27:309][  0]LogSlate: Took 0.014022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.09-14.04.27:842][  0]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
-[2019.12.09-14.04.28:144][  0]LogSlate: Took 0.034090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.09-14.04.30:061][ 26]LogAssetRegistry: Asset discovery search completed in 50.6294 seconds
-[2019.12.09-14.04.30:065][ 26]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000015 seconds (found 0 objects)
-[2019.12.09-14.04.30:065][ 26]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
-[2019.12.09-14.05.26:966][822]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={831601D8-4539-C99C-A032-91AD28113261}
-[2019.12.09-14.05.26:966][822]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={116DC6CA-4E16-9008-C754-2E9070FE1148}
-[2019.12.09-14.06.35:203][848]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:4).
-[2019.12.09-14.06.52:076][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.12.09-14.06.54:008][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2019.12.09-14.06.55:179][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.09-14.06.57:419][335]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.09-14.06.57:429][335]LogAssetEditorManager: Opening Asset editor for Class /Script/CursedLabyrinth.Cellule
-[2019.12.09-14.13.34:044][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
+[2019.12.09-14.49.13:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.09-14.49.13:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
+[2019.12.09-14.49.13:918][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
+[2019.12.09-14.49.13:923][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.09-14.49.13:923][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.09-14.49.13:924][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.09-14.49.13:925][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:925][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.09-14.49.13:925][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.09-14.49.13:925][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.09-14.49.13:925][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.09-14.49.13:928][  0]LogHAL: Display: Platform has ~ 16 GB [17058197504 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.09-14.49.13:928][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.09-14.49.13:928][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.09-14.49.13:928][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Scalability.ini]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.09-14.49.13:929][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.09-14.49.13:930][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.09-14.49.13:930][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.09-14.49.13:930][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Config/Windows/Engine.ini]
+[2019.12.09-14.49.13:930][  0]LogInit: Computer: LAPTOP-RM4NRAU3
+[2019.12.09-14.49.13:930][  0]LogInit: User: Robin
+[2019.12.09-14.49.13:930][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.09-14.49.13:930][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.09-14.49.13:930][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.09-14.49.13:930][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.09-14.49.13:930][  0]LogMemory: Process Physical Memory: 101.08 MB used, 101.08 MB peak
+[2019.12.09-14.49.13:930][  0]LogMemory: Process Virtual Memory: 100.93 MB used, 100.93 MB peak
+[2019.12.09-14.49.13:930][  0]LogMemory: Physical Memory: 6076.59 MB used,  10191.37 MB free, 16267.96 MB total
+[2019.12.09-14.49.13:930][  0]LogMemory: Virtual Memory: 4668.64 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.12.09-14.49.13:933][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.09-14.49.13:972][  0]LogInit: Overriding locale with editor locale configuration option (fr-CA).
+[2019.12.09-14.49.13:972][  0]LogInit: Overriding language with editor culture configuration option ().
+[2019.12.09-14.49.13:972][  0]LogInit: Using OS detected language (fr-FR).
+[2019.12.09-14.49.13:973][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2019.12.09-14.49.13:974][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2019.12.09-14.49.13:974][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2019.12.09-14.49.13:974][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2019.12.09-14.49.13:974][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2019.12.09-14.49.13:974][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2019.12.09-14.49.13:974][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2019.12.09-14.49.13:974][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2019.12.09-14.49.13:987][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.09-14.49.14:033][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.09-14.49.14:033][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.09-14.49.14:347][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.09-14.49.14:347][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.09-14.49.14:442][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.12.09-14.49.14:442][  0]LogD3D11RHI:       4021/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.12.09-14.49.14:465][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.12.09-14.49.14:465][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.09-14.49.14:467][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.09-14.49.14:467][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.09-14.49.14:467][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.09-14.49.14:503][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.09-14.49.14:503][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.12.09-14.49.14:503][  0]LogWindows: EnumDisplayDevices:
+[2019.12.09-14.49.14:504][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.12.09-14.49.14:504][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2019.12.09-14.49.14:505][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.12.09-14.49.14:505][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.09-14.49.14:505][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.12.09-14.49.14:505][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.09-14.49.14:505][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.09-14.49.14:505][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.12.09-14.49.14:568][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.09-14.49.14:627][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.09-14.49.15:005][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.09-14.49.15:013][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.09-14.49.15:022][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.09-14.49.15:030][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.09-14.49.15:039][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.09-14.49.15:048][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.09-14.49.15:057][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.09-14.49.15:065][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.09-14.49.15:069][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.09-14.49.15:102][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.09-14.49.15:104][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.09-14.49.15:123][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.09-14.49.15:123][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.09-14.49.15:137][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.09-14.49.15:137][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.09-14.49.15:146][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.09-14.49.15:154][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.09-14.49.15:160][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.09-14.49.15:167][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.09-14.49.15:192][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.09-14.49.15:192][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.09-14.49.15:192][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.09-14.49.15:200][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.09-14.49.15:270][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Intermediate/Shaders/WorkingDirectory/1944/).
+[2019.12.09-14.49.15:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robin/AppData/Local/Temp/UnrealShaderWorkingDir/1447AD4A405C836D5192BD9650E70571/'.
+[2019.12.09-14.49.15:273][  0]LogXGEController: Cleaning working directory: C:/Users/Robin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.09-14.49.15:273][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.09-14.49.15:273][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.09-14.49.15:273][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.09-14.49.16:021][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.09-14.49.16:077][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/Robin/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.09-14.49.16:077][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Robin/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.09-14.49.16:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.09-14.49.16:077][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.09-14.49.16:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UEproject/projet-objets-partagee-2019-Thorekt/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.09-14.49.16:077][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.09-14.49.16:090][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.09-14.49.16:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.09-14.49.16:090][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.09-14.49.16:091][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.09-14.49.16:092][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.09-14.49.16:092][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.09-14.49.16:116][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.09-14.49.16:119][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.09-14.49.16:119][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.09-14.49.16:189][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
+[2019.12.09-14.49.16:468][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.09-14.49.16:628][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.09-14.49.16:628][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.09-14.49.16:628][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.09-14.49.16:628][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.09-14.49.16:628][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.09-14.49.16:639][  0]LogNetVersion: CursedLabyrinth 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1792059842)
+[2019.12.09-14.49.17:110][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.051560 seconds
+[2019.12.09-14.49.17:121][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.09-14.49.17:121][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.09-14.49.17:121][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.09-14.49.18:111][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.09-14.49.18:115][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.09-14.49.18:172][  0]SourceControl: Source control is disabled
+[2019.12.09-14.49.18:172][  0]SourceControl: Source control is disabled
+[2019.12.09-14.49.18:173][  0]SourceControl: Source control is disabled
+[2019.12.09-14.49.18:174][  0]SourceControl: Source control is disabled
+[2019.12.09-14.49.18:265][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.09-14.49.18:397][  0]LogOcInput: OculusInput pre-init called
+[2019.12.09-14.49.18:403][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.09-14.49.18:403][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.09-14.49.18:471][  0]LogEngine: Initializing Engine...
+[2019.12.09-14.49.18:472][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.09-14.49.18:473][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.09-14.49.18:724][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.09-14.49.18:742][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.09-14.49.18:769][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.09-14.49.18:983][  0]LogInit: FAudioDevice initialized.
+[2019.12.09-14.49.18:983][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.09-14.49.19:081][  0]LogDerivedDataCache: Saved boot cache 0.10s 73MB C:/Users/Robin/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.09-14.49.19:090][  0]LogInit: Texture streaming: Enabled
+[2019.12.09-14.49.19:105][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.09-14.49.19:105][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.09-14.49.19:106][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.09-14.49.19:163][  0]LogInit: Transaction tracking system initialized
+[2019.12.09-14.49.19:191][  0]BlueprintLog: New page: Editor Load
+[2019.12.09-14.49.19:259][  0]LocalizationService: Localization service is disabled
+[2019.12.09-14.49.19:307][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2019.12.09-14.49.19:307][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2019.12.09-14.49.19:307][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.12.09-14.49.19:517][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Content/' took 0.01s
+[2019.12.09-14.49.19:518][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.09-14.49.19:518][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.09-14.49.19:708][  0]SourceControl: Source control is disabled
+[2019.12.09-14.49.19:708][  0]Cmd: MAP LOAD FILE="../../../../../UEproject/projet-objets-partagee-2019-Thorekt/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.09-14.49.19:709][  0]LightingResults: New page: Lighting Build
+[2019.12.09-14.49.19:711][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.09-14.49.19:711][  0]MapCheck: New page: Map Check
+[2019.12.09-14.49.19:711][  0]LightingResults: New page: Lighting Build
+[2019.12.09-14.49.19:739][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.12.09-14.49.20:092][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.12.09-14.49.20:106][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.09-14.49.20:137][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.12.09-14.49.20:137][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.09-14.49.20:137][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,089ms to complete.
+[2019.12.09-14.49.20:137][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.428
+[2019.12.09-14.49.20:260][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.09-14.49.20:268][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.09-14.49.20:278][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.09-14.49.20:287][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.09-14.49.20:292][  0]LogCollectionManager: Loaded 0 collections in 0.001253 seconds
+[2019.12.09-14.49.20:300][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Saved/Collections/' took 0.00s
+[2019.12.09-14.49.20:300][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Content/Developers/Robin/Collections/' took 0.00s
+[2019.12.09-14.49.20:300][  0]LogFileCache: Scanning file cache for directory 'D:/UEproject/projet-objets-partagee-2019-Thorekt/Content/Collections/' took 0.00s
+[2019.12.09-14.49.20:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.12.09-14.49.20:310][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2865 classes and 682 folders.
+[2019.12.09-14.49.20:316][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.09-14.49.20:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.09-14.49.20:385][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.12.09-14.49.20:417][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.09-14.49.20:420][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.09-14.49.20:428][  0]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.09-14.49.20:531][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.12.09-14.49.20:696][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.09-14.49.20:696][  0]LogLoad: (Engine Initialization) Total time: 8.52 seconds
+[2019.12.09-14.49.20:696][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.09-14.49.20:763][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.09-14.49.20:774][  0]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.09-14.49.20:803][  1]LogAssetRegistry: Asset discovery search completed in 4.6143 seconds
+[2019.12.09-14.49.20:806][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.12.09-14.49.20:806][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.12.09-14.49.21:744][ 53]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
