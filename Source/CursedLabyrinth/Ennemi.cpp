@@ -2,6 +2,8 @@
 
 
 #include "Ennemi.h"
+#include "Components/BoxComponent.h"
+#include "Components/SpotLightComponent.h"
 
 // Sets default values
 AEnnemi::AEnnemi()
@@ -9,6 +11,9 @@ AEnnemi::AEnnemi()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	this->RootComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
+	this->lumiereDetection = CreateDefaultSubobject<USpotLightComponent>(TEXT("LumiereDetection"));
+	lumiereDetection->AttachTo(this->RootComponent);
 }
 
 // Called when the game starts or when spawned
