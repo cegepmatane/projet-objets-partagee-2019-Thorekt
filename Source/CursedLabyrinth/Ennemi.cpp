@@ -3,6 +3,7 @@
 
 #include "Ennemi.h"
 #include "Components/BoxComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "Components/SpotLightComponent.h"
 
 // Sets default values
@@ -13,7 +14,9 @@ AEnnemi::AEnnemi()
 
 	this->RootComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
 	this->lumiereDetection = CreateDefaultSubobject<USpotLightComponent>(TEXT("LumiereDetection"));
-	lumiereDetection->AttachTo(this->RootComponent);
+	this->lumiereDetection->AttachTo(this->RootComponent);
+	this->detection = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Detection"));
+	this->detection->AttachTo(this->RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -28,5 +31,14 @@ void AEnnemi::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+
+
+}
+
+void AEnnemi::joueurDetecter(AActor* joueur) {
+	if (this->debut != NULL) {
+		joueur->SetActorLocation(this->debut->GetActorLocation());
+	}
+	
 }
 

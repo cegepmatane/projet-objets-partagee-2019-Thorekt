@@ -19,6 +19,8 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintCallable, Category = "Detection")
+	void joueurDetecter(AActor* joueur);
 
 public:	
 	// Called every frame
@@ -26,4 +28,13 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Editable", meta = (AllowPrivateAccess = "true"))
 	class USpotLightComponent* lumiereDetection;
+
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Detection", meta = (AllowPrivateAccess = "true"))	
+	class UStaticMeshComponent* detection;
+
+
+	UPROPERTY(EditAnywhere, Category = "Editable", meta = (AllowPrivateAccess = "true"))
+	class AActor* debut;
+
 };
