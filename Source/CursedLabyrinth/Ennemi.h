@@ -20,7 +20,9 @@ protected:
 	virtual void BeginPlay() override;
 
 	UFUNCTION(BlueprintCallable, Category = "Detection")
-	void joueurDetecter(AActor* joueur);
+	virtual void joueurDetecter(AActor* joueur);
+
+
 
 public:	
 	// Called every frame

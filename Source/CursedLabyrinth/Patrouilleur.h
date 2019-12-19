@@ -14,4 +14,14 @@ class CURSEDLABYRINTH_API APatrouilleur : public AEnnemi
 {
 	GENERATED_BODY()
 	
+
+protected:
+	UPROPERTY(EditAnywhere, Category = "Editable", meta = (AllowPrivateAccess = "true"))
+	TArray<AActor*> pointsDePassage;
+
+	AActor* pointDePassageCourant;
+	int indexPointDePassageCourant = 0;
+
+	UFUNCTION(BlueprintCallable, Category = "Deplacement")
+	AActor* changerDestination();
 };
