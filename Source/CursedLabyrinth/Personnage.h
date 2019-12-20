@@ -26,7 +26,7 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
+	int multiplicateurVitesse;
 
 public:	
 	// Called every frame
@@ -35,4 +35,6 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Prendre")
 	void prendre();
+	UFUNCTION(BlueprintCallable, Category = "Prendre")
+	int getMultiplicateurVitesse();
 };

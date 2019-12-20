@@ -14,6 +14,7 @@ APersonnage::APersonnage()
 	attrapeur = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere de cueillette"));
 	attrapeur->AttachTo(RootComponent);
 	attrapeur->SetSphereRadius(200.f);
+	this->multiplicateurVitesse=1;
 }
 
 // Called when the game starts or when spawned
@@ -38,10 +39,14 @@ void APersonnage::prendre(){
 		AVitesse* vitesse = Cast<AVitesse>(listeObjets[position]);
 		if (vitesse && !vitesse->IsPendingKill())
 			vitesse->estAttrape();
+		this->multiplicateurVitesse++;
 	}
 
 }
 
 
+int APersonnage::getMultiplicateurVitesse() {
+	return this->multiplicateurVitesse;
 
+}
 
