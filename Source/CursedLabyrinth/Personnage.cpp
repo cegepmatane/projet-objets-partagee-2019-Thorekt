@@ -2,6 +2,7 @@
 
 
 #include "Vitesse.h"
+#include "Engine.h"
 #include "Personnage.h"
 
 
@@ -37,9 +38,14 @@ void APersonnage::prendre(){
 
 	for (int32 position = 0; position < listeObjets.Num(); position++) {
 		AVitesse* vitesse = Cast<AVitesse>(listeObjets[position]);
-		if (vitesse && !vitesse->IsPendingKill())
+		if (vitesse && !vitesse->IsPendingKill()) {
 			vitesse->estAttrape();
-		this->multiplicateurVitesse++;
+			this->multiplicateurVitesse++;
+			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "multiplicateur" + FString::SanitizeFloat(this->multiplicateurVitesse));
+
+		}
+			
+
 	}
 
 }

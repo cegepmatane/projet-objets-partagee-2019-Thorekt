@@ -35,6 +35,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Prendre")
 	void prendre();
-	UFUNCTION(BlueprintCallable, Category = "Prendre")
+
+	UFUNCTION(BlueprintCallable, Category = "Vitesse")
 	int getMultiplicateurVitesse();
 };
